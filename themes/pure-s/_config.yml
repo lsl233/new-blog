@@ -2,12 +2,12 @@
 menu:
   Home: .
   Archives: archives  # 归档
-  Categories: categories  # 分类
-  Tags: tags  # 标签
-  Repository: repository  # github repositories
-  Books: books  # 豆瓣书单
-  Links: links  # 友链
-  About: about  # 关于
+  # Categories: categories  # 分类
+  # Tags: tags  # 标签
+  # Repository: repository  # github repositories
+  # Books: books  # 豆瓣书单
+  # Links: links  # 友链
+  # About: about  # 关于
 
 # Enable/Disable menu icons
 menu_icons:
@@ -38,10 +38,10 @@ site:
 
 # config
 config:
-  skin: # 主题颜色 theme-black theme-blue theme-green theme-purple
+  skin: theme-purple # 主题颜色 theme-black theme-blue theme-green theme-purple
   layout: main-center # 布局方式 main-left main-center main-right
   toc: true # 是否开启文章章节目录导航
-  menu_highlight: false # 是否开启当前菜单高亮显示
+  menu_highlight: true # 是否开启当前菜单高亮显示
   thumbnail: false # enable posts thumbnail, options: true, false
   excerpt_link: Read More
 
@@ -83,7 +83,7 @@ search:
 
 # Donate
 donate:
-  enable: true
+  enable: false
   # 微信打赏
   wechatpay:
     qrcode: images/donate/wechatpayimg.png
@@ -102,7 +102,7 @@ share:
 
 # Github
 github: 
-  username: cofess  # github username
+  username: lsl233  # github username
 
 # Comment
 # Gitment
@@ -186,21 +186,21 @@ profile:
   enabled: true # Whether to show profile bar
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
-  author_title: Web Developer & Designer
+  author: lsl233
+  author_title: Developer & Developer
   author_description: 个人简介。
-  location: Shenzhen, China
-  follow: https://github.com/cofess
+  location: ChengDu, China
+  follow: https://github.com/lsl233
   # Social Links
   social:
     links:
-      github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
+      github: https://github.com/lsl233
+      # weibo: http://weibo.com/cofess
+      # twitter: https://twitter.com/iwebued
       # facebook: /
       # dribbble: /
-      behance: https://www.behance.net/cofess
-      rss: atom.xml
+      # behance: https://www.behance.net/cofess
+      # rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
   skills:
