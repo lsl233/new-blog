@@ -95,4 +95,6 @@ theme: pure-s
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  - type: git
+    repo: https://github.com/lsl233/new-blog.git
+    branch: gh-pages
