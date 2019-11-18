@@ -1,12 +1,14 @@
 ---
-title: VUE 生命周期总结
+title: VUE 学习总结
 date: 2019-11-18 20:54:40
 tags:
   - VUE
   - JavaScript
   - 生命周期
 ---
+对于 Vue 学习总结...
 
+# 生命周期
 ### beforeCreate & created
 `beforeCreate` 组件创建之前, 在VUE源码中, 
 ``` JavaScript
@@ -23,7 +25,7 @@ Vue.prototype._init = function (options?: Object) {
   // ...
 }
 ```
-initState 主要是 `props`、`data`、`methods`、`watch`、`computed`, 所以不能获取 `props`、`data`, 也不能调用 `methods` 中的方法,  但是可以获取到`router` 信息, 一般会用于权限验证, 自定义重定向操作,
+initState 主要是 `props`、`data`、`methods`、`watch`、`computed`, 所以不能获取 `props`、`data`, 也不能调用 `methods` 中的方法,  但是可以获取到`router` 信息, 一般会用于权限验证, 自定义重定向操作.
 
 `created` 组件创建完成, 尽早请求数据, 一般会这里进行数据请求, 可以获取 `props`、`data`、`methods`
 
